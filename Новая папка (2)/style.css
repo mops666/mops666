@@ -1,0 +1,10 @@
+body {
+	background:url(images/original.jpg) no-repeat center center fixed;
+	background-size: 70%;
+	background-color: black;
+}
+
+input {
+	font-size: 20pt;
+}
+

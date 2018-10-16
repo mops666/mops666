@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Викторина</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div align="center">
+			<form>
+				<input type="button" value="Нажмите для перехода на сайт" onclick="Input()">
+			</form>
+		</div>
+		
+		<script type="text/javascript">
+			function Input(){
+			login_ok = false;
+			user_name = "";
+			user_name = prompt("Пароль","");
+			user_name = user_name.toLowerCase();
+			if (user_name=="12345"){
+			login_ok=true;
+			window.location="https://docs.google.com/forms/d/1YagesxizXLn-JJdqa25TinfTAI26ZwrBdDXZuIWZ9sk/edit?usp=sharing";
+			}
+			if (login_ok==false) alert("Неверный пароль!")
+			}
+		</script>
+	</body>
+</html>
